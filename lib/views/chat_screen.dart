@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:frontend/chat_model.dart';
+import 'package:frontend/models/chat_model.dart';
 import 'package:frontend/widgets/typing_indicator.dart';
-import 'chat_bloc.dart';
-import 'chat_event.dart';
-import 'chat_state.dart';
+import '../bloc/chat_bloc.dart';
+import '../bloc/event/chat_event.dart';
+import '../bloc/state/chat_state.dart';
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({super.key});

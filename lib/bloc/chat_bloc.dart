@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:frontend/chat_model.dart';
-import 'package:frontend/chat_repository.dart';
-import 'chat_event.dart';
-import 'chat_state.dart';
+import 'package:frontend/models/chat_model.dart';
+import 'package:frontend/repositories/chat_repository.dart';
+import 'event/chat_event.dart';
+import 'state/chat_state.dart';
 
 class ChatBloc extends Bloc<ChatEvent, ChatState> {
   final String apiUrl = 'http://localhost:3000/question';

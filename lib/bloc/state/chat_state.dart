@@ -1,4 +1,4 @@
-import 'package:frontend/chat_model.dart';
+import 'package:frontend/models/chat_model.dart';
 
 abstract class ChatState {}
 

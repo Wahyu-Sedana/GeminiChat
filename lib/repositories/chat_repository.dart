@@ -1,4 +1,4 @@
-import 'package:frontend/chat_datasource.dart';
+import 'package:frontend/data/chat_datasource.dart';
 
 class ChatRepository {
   final ChatDatasource chatDatasource;

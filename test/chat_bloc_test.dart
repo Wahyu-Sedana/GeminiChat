@@ -1,10 +1,10 @@
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:frontend/chat_bloc.dart';
-import 'package:frontend/chat_datasource.dart';
-import 'package:frontend/chat_event.dart';
-import 'package:frontend/chat_repository.dart';
-import 'package:frontend/chat_state.dart';
+import 'package:frontend/bloc/chat_bloc.dart';
+import 'package:frontend/data/chat_datasource.dart';
+import 'package:frontend/bloc/event/chat_event.dart';
+import 'package:frontend/repositories/chat_repository.dart';
+import 'package:frontend/bloc/state/chat_state.dart';
 
 void main() {
   group('Chat Bloc', () {
